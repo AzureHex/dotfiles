@@ -4,6 +4,12 @@
 echo "This script requires sudo privileges. Please enter your password."
 sudo -v
 
+# Check if the password was entered correctly
+if [ $? -ne 0 ]; then
+    echo "Sudo authentication failed. Exiting."
+    exit 1
+fi
+
 # Ensure Flatpak is installed
 if ! command -v flatpak &> /dev/null; then
     echo "Flatpak is not installed. Please install Flatpak first."
@@ -33,7 +39,6 @@ FLATPAK_APPS=(
     "io.github.celluloid_player.Celluloid"
     "org.gnome.Loupe"
     "com.github.tenderowl.frog"
-    ""
 )
 
 # Function to install Flatpak apps
