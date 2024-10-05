@@ -5,7 +5,6 @@ $ENV:STARSHIP_DISTRO = "  eyes"
 Invoke-Expression (&starship init powershell)
 
 # Aliasis
-Set-Alias vim nvim
 Set-Alias ubuntu ubuntu2404.exe
 
 # Networking
