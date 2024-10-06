@@ -1,13 +1,22 @@
 {
     "update.mode": "none",
     "breadcrumbs.enabled": false,
+    "files.autoSave": "afterDelay",
     "material-icon-theme.hidesExplorerArrows": true,
+    "remoteHub.commitDirectlyWarning": "off",
     "security.workspace.trust.untrustedFiles": "open",
     "telemetry.telemetryLevel": "off",
+
+    "codesnap.containerPadding": "8em",
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
+    "codesnap.backgroundColor": "#FFC540",
+    "codesnap.showLineNumbers": false,
+    "codesnap.roundedCorners": true,
 
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
 
+    "editor.guides.indentation": false,
     "editor.minimap.enabled": false,
     "editor.scrollbar.vertical": "visible",
     "editor.scrollbar.horizontal": "hidden",
@@ -24,17 +33,15 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
 
-    "window.commandCenter": false,
     "window.customTitleBarVisibility": "never",
     "window.newWindowDimensions": "inherit",
     "window.nativeFullScreen": true,
     "window.zoomLevel": 1,
-    "window.titleBarStyle": "native",
     "window.newWindowProfile": "eyes",
+    "window.commandCenter": false,
 
     "workbench.activityBar.location": "default",
-    "workbench.statusBar.visible": false,
-    "workbench.colorTheme": "Catppuccin Frappé",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.productIconTheme": "fluent-icons",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
@@ -45,19 +52,20 @@
     "workbench.editor.enablePreview": true,
     "workbench.sideBar.location": "right",
     "workbench.tree.indent": 20,
-    
-    "apc.font.family": "Josefin Sans",
-    "apc.monospace.font.family": "JetBrainsMono Nerd Font",
-    "apc.electron": {
-    "frame": false
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ffe4b5" // Replace with your desired color code
+        },
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/eyes/.vscode/vscode.css"
+    ],
+//    "apc.font.family": "Josefin Sans",
+//    "apc.monospace.font.family": "JetBrainsMono Nerd Font",
+//    "apc.electron": {
+//    "frame": false
 //      "titleBarStyle": "hiddenInset",
 //      "trafficLightPosition": {
 //        "x": 15,
 //        "y": 13
 //      }
-    },
-    "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#ffe4b5" // Replace with your desired color code
-    },
-    "remoteHub.commitDirectlyWarning": "off"
+//    },
 }
