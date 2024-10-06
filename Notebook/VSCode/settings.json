@@ -56,7 +56,8 @@
         "editorCursor.foreground": "#ffe4b5" // Replace with your desired color code
         },
     "vscode_custom_css.imports": [
-        "file:///C:/Users/eyes/.vscode/vscode.css"
+        "file:///C:/Users/eyes/vscode.css",
+        "file:///C:/Users/eyes/vscode.css"
     ],
 //    "apc.font.family": "Josefin Sans",
 //    "apc.monospace.font.family": "JetBrainsMono Nerd Font",
